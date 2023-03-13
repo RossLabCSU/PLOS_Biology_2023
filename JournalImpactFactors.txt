@@ -1,0 +1,17 @@
+Impact factors obtained from jcr.clarivate.com on 1/22/2023	
+Journal	Impact Factor
+PLOS Biology	9.593
+PLOS Genetics	6.02
+PLOS Pathogens	7.464
+PLOS Medicine	11.613
+PLOS Computational Biology	4.779
+Cell	66.85
+Nature	69.504
+Science	63.832
+Genetics	4.402
+mBio	7.786
+BMC Medicine	11.806
+Bioinformatics	6.931
+Molecular and Cellular Biology	5.094
+J Cell Biology	8.077
+Current Biology	10.9
