@@ -1,6 +1,9 @@
-# Reproduction of Data in [Cascarina (2023)](add link when published "Link to Research Article")
+# IMPORTANT NOTE:
+The code, data, and resulting data analysis provided here have not yet been scrutinized by peer review and are subject to change.
 
-This directory contains all necessary information and code to reproduce the data in [Cascarina (2023) *PLOS Biology*](add link when published "Link to Research Article"). Below is a list of dependencies and associated version numbers used for testing and data analysis:
+# Reproduction of Data in [Cascarina (2023)](add link when published)
+
+This directory contains all necessary information and code to reproduce the data in [Cascarina (2023) *PLOS Biology*](add link when published). Below is a list of dependencies and associated version numbers used for testing and data analysis:
 
 | Package | Version |
 | ----------- | ----------- |
