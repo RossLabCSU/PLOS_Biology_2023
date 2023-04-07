@@ -164,9 +164,9 @@ def plot_medians(df, xcat, ylabel, fig_label):
     plt.xticks(fontname='Arial', fontsize=12)
     plt.yticks(fontname='Arial', fontsize=12)
     if ylabel == 'Percent Self-References':
-        plt.ylabel('Percent Self-References\nCentral Tendency Value', fontname='Arial', fontsize=14)
+        plt.ylabel('Percent Self-References', fontname='Arial', fontsize=14)
     else:
-        plt.ylabel('Author Rank\nCentral Tendency Value', fontname='Arial', fontsize=14)
+        plt.ylabel('Author Rank', fontname='Arial', fontsize=14)
     plt.xlabel(axislabel_df[xcat], fontname='Arial', fontsize=14)
 
     if fig_label in ['Fig5C', 'FigS4A', 'FigS4D', 'FigS4E', 'FigS4F']:
