@@ -82,9 +82,7 @@ def calc_rollingmeans_of_medians(df, xcat, ycat, window_size):
         gap_size = 10000
     else:
         gap_size = 10
-    
-    print('Calculating...', xcat, 'quartiles')
-    
+
     plotting_df = {'Value':[],
                 xcat:[],
                 'Category':[]}
