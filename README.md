@@ -1,6 +1,3 @@
-# IMPORTANT NOTE:
-The code, data, and resulting data analysis provided here have not yet been scrutinized by peer review and are subject to change.
-
 # Reproduction of Data in [Cascarina (2023)](add link when published)
 
 This directory contains all necessary information and code to reproduce the data in [Cascarina (2023) *PLOS Biology*](add link when published). Below is a list of dependencies and associated version numbers used for testing and data analysis:
@@ -18,9 +15,10 @@ This directory contains all necessary information and code to reproduce the data
 | tqdm | 4.64.1 |
 
 To reproduce figures and tables in the paper:
-1. Download all files from the directory.
-2. Extract necessary files from compressed folders (placing them in the same folder as the scripts). Please refer to the "License info" section at the bottom of this page for important licensing information regarding these files.
-3. Run the batch file called "SelfReferencing_Replication_Batch.bat" via command-line bash/terminal. Alternatively, each individual command in the batch file can be run independently via command-line.
+1. Download the required data from Figshare (NOTE: this is currently only available as a privately shared link for peer review purposes. If you do not have this link, the code shared here will fail).
+2. Download all files from this Github repository.
+3. Extract necessary files from compressed folders (placing them in the same folder as the scripts). Please refer to the "License info" section at the bottom of this page for important licensing information regarding these files. Files downloaded from Figshare must also be extracted and placed in the same folder as the scripts and data downloaded from this repository.
+4. Run the batch file called "SelfReferencing_Replication_Batch.bat" via command-line bash/terminal. Alternatively, each individual command in the batch file can be run independently via command-line.
 
 ## License info
 All code in this directory is subject to the terms of the GPLv3 license (see LICENSE in this directory). If you use data, code, or information contained in this directory or the associated manuscript, please cite:
