@@ -217,7 +217,7 @@ def subplots(df, fig_label):
             transform=ax.transAxes, fontname='Arial', fontsize=12)
         ax.get_legend().remove()
     
-    fig.text(-0.025, 0.5, 'Percent Self-References Quartile Value', va='center', rotation='vertical', fontname='Arial', fontsize=16)
+    fig.text(-0.025, 0.5, 'Percent Self-References', va='center', rotation='vertical', fontname='Arial', fontsize=16)
     fig.text(0.5, -0.02, 'Total Number of References', ha='center', fontname='Arial', fontsize=16)
     plt.tight_layout(pad=0.2)
     plt.savefig(fig_label + '_PercentSelfReferences_vs_NumReferences_JournalSubplots.tif', bbox_inches ='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
