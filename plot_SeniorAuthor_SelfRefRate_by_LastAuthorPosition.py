@@ -101,7 +101,7 @@ def main():
 
     fig = plt.gcf()
     fig.set_size_inches(8,5)
-    plt.savefig('Fig4B_SeniorAuthor_SelfRefsContributed_Distributions.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('Fig4B_SeniorAuthor_SelfRefsContributed_Distributions.tif', bbox_inches='tight', dpi=600)
     plt.close()
         
         
