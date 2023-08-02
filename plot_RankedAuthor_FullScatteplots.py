@@ -110,7 +110,7 @@ def plotting_scatter(df, fig_label, xcat, ycat):
     plt.xlabel(xcat, fontname='Arial', fontsize=14)
     plt.ylabel(ycat, fontname='Arial', fontsize=14)
     
-    plt.savefig(fig_label + '_' + ycat.title().replace(' ', '') + '_vs_' + xcat.title().replace(' ', '') + '_Scatterplot.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig(fig_label + '_' + ycat.title().replace(' ', '') + '_vs_' + xcat.title().replace(' ', '') + '_Scatterplot.tif', bbox_inches='tight', dpi=600)
     plt.close()
     
 
