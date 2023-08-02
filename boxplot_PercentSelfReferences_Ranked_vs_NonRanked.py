@@ -78,7 +78,7 @@ def boxplot(df):
     
     fig = plt.gcf()
     fig.set_size_inches(3,5)
-    plt.savefig('Fig6A_PercentSelfReferences_Ranked_vs_NonRanked_Boxplot.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('Fig6A_PercentSelfReferences_Ranked_vs_NonRanked_Boxplot.tif', bbox_inches='tight', dpi=600)
     plt.close()
 
 
