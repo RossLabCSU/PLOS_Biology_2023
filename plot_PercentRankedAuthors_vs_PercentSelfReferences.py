@@ -52,7 +52,7 @@ def plot_lineplot(xvals, yvals):
     plt.ylabel('Percentage of Max. Authors\non Ranked Author List', fontname='Arial', fontsize=14)
     fig = plt.gcf()
     fig.set_size_inches(5,5)
-    plt.savefig('Fig6B_PercentRankedAuthors_vs_PercentSelfReferences.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('Fig6B_PercentRankedAuthors_vs_PercentSelfReferences.tif', bbox_inches='tight', dpi=600)
     plt.close()
 
     
