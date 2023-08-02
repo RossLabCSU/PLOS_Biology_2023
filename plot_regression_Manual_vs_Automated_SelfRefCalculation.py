@@ -44,7 +44,7 @@ def plotting(manual_vals, automated_vals):
     plt.xlabel('Percent Self-References,\nAutomated PubMed Queries', fontname='Arial', fontsize=14)
     plt.ylabel('Percent Self-References,\nManual Calculation', fontname='Arial', fontsize=14)
 
-    plt.savefig('FigS1_Automated_vs_Manual_PercentSelfReferences_Regression.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('FigS1_Automated_vs_Manual_PercentSelfReferences_Regression.tif', bbox_inches='tight', dpi=600)
     plt.close()
         
 
