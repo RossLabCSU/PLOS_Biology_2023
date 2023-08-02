@@ -93,7 +93,7 @@ def plotting(df):
 
     plt.setp(leg.get_title(), multialignment='center')
     
-    plt.savefig('Fig4A_PercentageOfPapersWithMaxSelfRef_by_AuthorPosition.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('Fig4A_PercentageOfPapersWithMaxSelfRef_by_AuthorPosition.tif', bbox_inches='tight', dpi=600)
     plt.close()
 
 
