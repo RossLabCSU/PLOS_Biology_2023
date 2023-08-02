@@ -146,7 +146,7 @@ def plot_num_pubs(df, xlocs, cats, label_order):
     plt.xlabel('Journal', fontname='Arial', fontsize=14)
     plt.ylabel('Number of Publications', fontname='Arial', fontsize=14)
     plt.ylim(0, 10900)
-    plt.savefig('FigS2A_NumberOfPublications_by_Journal.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('FigS2A_NumberOfPublications_by_Journal.tif', bbox_inches='tight', dpi=600)
     plt.close()
     
 
@@ -192,7 +192,7 @@ def plot_IFs_main(df, xlocs, cats, label_order):
     plt.ylim(0, 13)
     fig = plt.gcf()
     fig.set_size_inches(6,5)
-    plt.savefig('FigS2B-part1_ImpactFactors_Main.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('FigS2B-part1_ImpactFactors_Main.tif', bbox_inches='tight', dpi=600)
     plt.close()
     
 
@@ -227,7 +227,7 @@ def plot_IFs_cellnaturescience(df, xlocs, cats, label_order):
     plt.ylim(0, 72)
     fig = plt.gcf()
     fig.set_size_inches(1.5,5)
-    plt.savefig('FigS2B-part2_ImpactFactors_CellNatureScience.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('FigS2B-part2_ImpactFactors_CellNatureScience.tif', bbox_inches='tight', dpi=600)
     plt.close()
     
     
@@ -288,7 +288,7 @@ def boxplots_TotalRefs_NumAuthors(df, cats, label_order, category, fig_label, xa
     plt.xlabel(category, fontname='Arial', fontsize=14)
     fig = plt.gcf()
     fig.set_size_inches(4.5, 6)
-    plt.savefig(fig_label + '_' + category.title().replace(' ', '') + '_by_Journal.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig(fig_label + '_' + category.title().replace(' ', '') + '_by_Journal.tif', bbox_inches='tight', dpi=600)
     plt.close()
 
 
