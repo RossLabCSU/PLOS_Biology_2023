@@ -48,7 +48,7 @@ def plotting(df):
     
     fig = plt.gcf()
     fig.set_size_inches(2,5)
-    plt.savefig('Fig3C_PercentSelfReferences_RANGES_TotalRefs_vs_NumAuthors.tif', bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
+    plt.savefig('Fig3C_PercentSelfReferences_RANGES_TotalRefs_vs_NumAuthors.tif', bbox_inches='tight', dpi=600)
     plt.close()
     
 
