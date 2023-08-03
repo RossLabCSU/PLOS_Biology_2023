@@ -61,7 +61,7 @@ def get_ranges(file):
     ranges = []
     for line in h:
         journal, quartile, range, *vals = line.rstrip().split('\t')
-        if 'Median' not in quartile:
+        if quartile != '50th Percentile':
             continue
             
         data_min, data_max = range[1:-1].split(', ')
