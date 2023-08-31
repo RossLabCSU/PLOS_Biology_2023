@@ -15,7 +15,7 @@ This directory contains all necessary information and code to reproduce the data
 | tqdm | 4.64.1 |
 
 To reproduce figures and tables in the paper:
-1. Download the required data from Figshare (NOTE: this is currently only available as a privately shared link for peer review purposes. If you do not have this link, the code shared here will fail).
+1. Download the required data from Figshare: https://figshare.com/articles/dataset/Pubmed_Author_Query_Results/24069258.
 2. Download all files from this Github repository.
 3. Extract necessary files from compressed folders (placing them in the same folder as the scripts). Please refer to the "License info" section at the bottom of this page for important licensing information regarding these files. Files downloaded from Figshare must also be extracted and placed in the same folder as the scripts and data downloaded from this repository.
 4. Run the batch file called "SelfReferencing_Replication_Batch.bat" via command-line bash/terminal. Alternatively, each individual command in the batch file can be run independently via command-line.
