@@ -1,6 +1,6 @@
-# Reproduction of Data in [Cascarina (2023)](add link when published)
+# Reproduction of Data in [Cascarina (2023)](https://www.frontiersin.org/articles/10.3389/frma.2023.1215401/full)
 
-This directory contains all necessary information and code to reproduce the data in [Cascarina (2023)](add link when published). Below is a list of dependencies and associated version numbers used for testing and data analysis:
+This directory contains all necessary information and code to reproduce the data in [**Cascarina (2023),** ***Frontiers in Research Metrics and Analytics***](https://www.frontiersin.org/articles/10.3389/frma.2023.1215401/full). Below is a list of dependencies and associated version numbers used for testing and data analysis:
 
 | Package | Version |
 | ----------- | ----------- |
@@ -23,9 +23,9 @@ To reproduce figures and tables in the paper:
 ## License info
 All code in this directory is subject to the terms of the GPLv3 license (see LICENSE in this directory). If you use data, code, or information contained in this directory or the associated manuscript, please cite:
 
-INCLUDE REFERENCE WHEN PUBLISHED
+1. Cascarina, SM (2023). Self-referencing rates in biological disciplines. *Front. Res. Metr. Anal.* https://doi.org/10.3389/frma.2023.1215401
 
 The "ranked-authors" database (file named "Table_1_Authors_career_2021_pubs_since_1788_wopp_extracted_202209b.tsv") was originally downloaded from https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw and is subject to the terms of the [CC BY NC 3.0 license](https://creativecommons.org/licenses/by-nc/3.0/legalcode). If you use any part of the ranked-authors database, please cite:
 
-1. Ioannidis, John P.A. (2022), “September 2022 data-update for "Updated science-wide author databases of standardized citation indicators"”, Elsevier Data Repository, V5, doi: 10.17632/btchxktzyw.5
-2. Ioannidis JPA, Boyack KW, Baas J (2020) Updated science-wide author databases of standardized citation indicators. PLOS Biology 18(10): e3000918. https://doi.org/10.1371/journal.pbio.3000918
+1. Ioannidis, John PA (2022). “September 2022 data-update for "Updated science-wide author databases of standardized citation indicators"”, *Elsevier Data Repository*, V5, doi: https://doi.org/10.17632/btchxktzyw.5
+2. Ioannidis JPA, Boyack KW, Baas J (2020). Updated science-wide author databases of standardized citation indicators. *PLOS Biology* 18(10): e3000918. https://doi.org/10.1371/journal.pbio.3000918
